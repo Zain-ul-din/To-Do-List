@@ -1,0 +1,35 @@
+<style>
+       .Input-field{
+           margin-bottom:10px;
+       }
+     .TODOS{
+       display: flex;
+       margin-top: 20px;
+       border-bottom: 1px solid #343a40;
+       flex-direction: row;
+       flex-wrap: wrap;
+     }
+
+     .TODOS p{
+       margin-top:3px;
+       width:100%;
+       display: flex;
+       /*background-color: rgb(123, 228, 228);*/
+       justify-content: center;
+       justify-content:center;
+       font-size: 1rem;
+     }
+     .TODOS p:hover{
+        cursor: pointer;
+     }
+     .P{
+       margin: 9px;
+     }
+     .Marked{
+       background-color: #90EE90	;
+     }
+     .Marked-none{
+      background-color: #FF6347	;
+      text-decoration: line-through;
+     }
+</style>
